@@ -1,7 +1,14 @@
+/* Edits */
+
 .margin-top {
   margin-top: 20px;
 }
 
+.container {
+  padding-bottom: 40px;
+}
+
+/* Aurelia default */
 
 body {
   margin: 0;
