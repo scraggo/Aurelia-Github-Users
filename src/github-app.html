@@ -21,11 +21,12 @@
           <hr>
           <div class="row">
             <div class="col-sm-4">
-                        <!-- <h3 class="name">${user.login}</h3>
+          <!-- <h3 class="name">${user.login}</h3>
           <p><a href="${user.html_url}">View Profile</a></p> -->
           <p>Followers: ${user.followers} <a href="https://github.com/${user.login}?tab=followers">View</a></p>
           <p>Following: ${user.following} <a href="https://github.com/${user.login}?tab=following">View</a></p>
-          <p if.bind="user.orgData">Organisations: ${user.orgData.length} <a href="https://github.com/${user.login}?tab=followers">View</a></p>
+          <p if.bind="user.orgData">Organisations: ${user.orgData.length}</p>
+          <!-- <p if.bind="user.orgData">Organisations: ${user.orgData.length} <a href="https://github.com/${user.login}?tab=followers">View</a></p> -->
           <ul>
             <li repeat.for="i of user.orgData.length"><a href="https://github.com/${user.orgData[i].login}">${user.orgData[i].login}</a></li>
           </ul>
