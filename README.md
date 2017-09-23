@@ -1,6 +1,6 @@
 # GitHub User Search
 
-## [Search for GitHub User](https://scraggo.github.io/Aurelia-Github-Users)
+## Try it here: [scraggo.github.io/Aurelia-Github-Users](https://scraggo.github.io/Aurelia-Github-Users)
 
 ## How to use
 
